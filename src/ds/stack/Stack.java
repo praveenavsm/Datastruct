@@ -33,7 +33,8 @@ public class Stack {
     }
 
     public boolean isEmpty(){
-        if(top==null) return true; else return false;}
+        return (top==null) ;
+    }
 
     public Character peek(){
         if(isEmpty()){ return null;}
